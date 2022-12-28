@@ -1,0 +1,81 @@
+/* Implementacion de fuente Interna*/
+
+@font-face { /*Practicamente si solo quierop esta fuente que no este en code predefinida*/
+    font-family: 'Brushed';
+    font-style: normal;
+    src: url('../CSS/font/Mighty\ Brush\ Demo.ttf');
+}
+/* Selector Universal */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Color de la selección */
+*::selection{ /* en cualquier elemento que sea seleccionado se aplique lan reglas de este bloque */
+    background-color: magenta;
+    color: white;
+}
+/* Implementacion externa Google Fonts*/ */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Ubuntu:ital,wght@0,300;1,300&display=swap');
+
+body{ /*Para que todos tengan la misma fuente*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*font-family: 'Oswald', sans-serif;*/
+}
+/* Selector por elemento */
+h1{
+    font-size: 45px;
+    color: brown;
+}
+h2{
+    font-family: 'Oswald', sans-serif;
+}
+h3{
+    font-family: 'Ubuntu', sans-serif;
+}
+h6{
+    font-family: 'Brushed';
+}a
+/* Selector por clases */
+.citas{
+    font-weight: 900; /* Peso de la fuente */
+    font-style: oblique;
+    text-align: right;
+    padding: 9px;
+}
+
+.sombreado{
+    text-shadow: 3px 3px 5px grey;
+    font-size: 36px;
+}
+
+/* Formato de parrafos en CSS */
+p{
+    font-size: 22px;
+    line-height: 1.5; /*Interlineado*/
+    text-align: center; /*Alineación*/
+}
+
+/*Subrayado de Texto*/
+.subrayado{
+    /*underline:debajo de texto*/
+    /*overline:sobre texto*/
+    /*line-through:tachado de texto*/
+    /* text-decoration-line: overline; */
+    text-decoration: cyan underline wavy; /*Propiedad de tipo shorthand*/
+}
+
+/* propiedades de capitalizacion */
+.mayusc{
+    text-transform: uppercase;
+}
+
+.minusc{
+    text-transform: lowercase;
+}
+
+.capi{
+    text-transform: capitalize;
+}
