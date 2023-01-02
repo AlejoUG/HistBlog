@@ -79,3 +79,11 @@ p{
 .capi{
     text-transform: capitalize;
 }
+
+button{
+    background-color: tomato;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid tomato;
+    border-radius: 5px;
+}
