@@ -14,4 +14,8 @@ Main 1
 Main 1
 
 Experimento 1
+<<<<<<< HEAD
 >>>>>>> 9f49af1 (Experimento1)
+=======
+Experimento 2
+>>>>>>> e595a8b (Experimento2)
